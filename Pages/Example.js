@@ -7,7 +7,7 @@ const Path = require ('path');
 
 module.exports = /* Exporting an object with 2 keys. The first is the name of the page, and the second is the "__init__" function. */
 {
-    name: 'Example', /* Name is required. */
+    name: 'Example', /* Name is not required. */
 
     /**
      * Here are the initialization function. 
