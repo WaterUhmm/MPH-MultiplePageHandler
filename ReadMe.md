@@ -4,7 +4,7 @@
 MultiplePageHandler is a simple Node, Express.js web server which haves an handler that
 allows you to create different pages in different files.
 
-・Useful for m
+・Useful for making your main file more cleaner.
 
 # Additional Notes
 
