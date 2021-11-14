@@ -1,7 +1,9 @@
 {
     "name": "express-page-handler",
     "main": "./Main.js",
-    "dependencies": {
+
+    "dependencies":
+    {
         "express": "^4.17.1"
     }
 }
