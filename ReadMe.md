@@ -11,7 +11,7 @@ allows you to create different pages in different files.
 You must have a basic understanding of JavaScript and Node.js in order to continue using 
 this "Application".
 
-# License Info
+# License Info (MIT)
 
 ・No License, Do what you want.
 
