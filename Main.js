@@ -77,3 +77,11 @@ const Srv = new Server ();
 
 Srv.Start (3000)    /* Starting the server */
 
+/**
+ * In order to execute the code, type one of the 2 following commands in the terminal:
+ * 
+ * node .
+ * 
+ * npm start
+ * 
+ */

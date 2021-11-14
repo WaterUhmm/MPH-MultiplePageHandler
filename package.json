@@ -2,8 +2,11 @@
     "name": "express-page-handler",
     "main": "./Main.js",
 
-    "dependencies":
-    {
+    "scripts": {
+        "start": "node ."
+    },
+
+    "dependencies": {
         "express": "^4.17.1"
     }
 }
