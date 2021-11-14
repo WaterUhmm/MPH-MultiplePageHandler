@@ -3,7 +3,7 @@
  * 
  * Quick Note:
  * 
- * You must have a basic JavaScript and Node.js before understanding before
+ * You must have a basic JavaScript and Node.js understanding before
  * using this code.
  * 
  * Used Libraries: Express.js, Path
@@ -60,7 +60,7 @@ class Server
                      * and must it have 1 parameter, which is Application.
                      * 
                      */
-                    
+
                     FileReader.__init__ (Application);
                 }
             }
