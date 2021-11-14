@@ -15,15 +15,21 @@ const Application = Express ();
 
 class Server 
 {
-    Start (Port) 
+    Port
+
+    async Start (Port) 
     {
+        this.Port = Port;
+
         Application.listen (Port, () => {
             console.log ('<!-- Application Started --!> | Port: ' + Port)
-        })
+        });
 
-        Application.get ('/', (Req, Res) => {
+        await Application.get ('/', (Req, Res) => {
             Res.send ('Please move to localhost://' + Port + '/example To see the handler.')
-        })
+        });
+
+        await this.PageHandler (); /* Executing the Handler */
     }
 
     async PageHandler ()
@@ -47,10 +53,14 @@ class Server
                 if ( File.length ) 
                 {
                     /**
+                     * 
                      * Initializing the file
                      * 
-                     * Make sure that you have exported a function named "__init__" and must have 1 parameter, which is Application.
+                     * In the file you made in the 'Pages' folder, make sure that you have exported a function named "__init__" 
+                     * and must it have 1 parameter, which is Application.
+                     * 
                      */
+                    
                     FileReader.__init__ (Application);
                 }
             }
@@ -66,4 +76,4 @@ class Server
 const Srv = new Server ();
 
 Srv.Start (3000)    /* Starting the server */
-Srv.PageHandler (); /* Executing the handler function */
+
