@@ -50,7 +50,7 @@ class Server
                 /* Reading every file that ends with ".js" (And it's obviously included in the Array). */
                 const FileReader = require ('./Pages/' + File + '.js'); 
 
-                if ( File.length ) 
+                if ( FileReader.name ) 
                 {
                     /**
                      * 
