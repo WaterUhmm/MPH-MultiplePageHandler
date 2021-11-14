@@ -3,7 +3,7 @@
  * 
  * Quick Note:
  * 
- * You must have a basic JavaScript and Node.js understanding before
+ * You must have a basic JavaScript and Node.js before understanding before
  * using this code.
  * 
  * Used Libraries: Express.js, Path
